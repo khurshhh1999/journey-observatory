@@ -1,0 +1,137 @@
+# Modeled assumptions. Dollar outputs are estimates, not realized revenue.
+seed: 184207
+window_days: 90
+as_of: "2025-12-29"
+margin_rate: "0.22"
+handling_minutes: "9"
+cost_per_minute: "0.70"
+gap_ratio: "0.25"
+sensitivity_shock: "0.2"
+min_events: 60000000
+max_duplicate_rate: "0.08"
+max_null_rate: "0"
+folio_per_night: 24
+charge_per_night: 6
+
+scenarios:
+  base:
+    booking_recovery_scale: "1"
+    contact_recovery_scale: "1"
+    margin_scale: "1"
+    cost_scale: "1"
+  upside:
+    booking_recovery_scale: "1.35"
+    contact_recovery_scale: "1.25"
+    margin_scale: "1.05"
+    cost_scale: "1.1"
+  downside:
+    booking_recovery_scale: "0.55"
+    contact_recovery_scale: "0.6"
+    margin_scale: "0.9"
+    cost_scale: "0.85"
+
+patterns:
+  voluntary_cancel:
+    label: Guest cancelled
+    cases: 70000
+    dropoff_cases: 0
+  voluntary_noshow:
+    label: Guest did not arrive
+    cases: 18000
+    dropoff_cases: 0
+  policy_block:
+    label: Policy decline
+    cases: 15000
+    dropoff_cases: 0
+  telemetry_gap:
+    label: Missing event
+    cases: 22000
+    dropoff_cases: 0
+  censored:
+    label: Still in house
+    cases: 8000
+    dropoff_cases: 0
+  payment_retry:
+    label: Payment retries that never clear
+    cases: 8200
+    dropoff_cases: 5084
+    contacts_per_case: 2
+    booking_recovery: "0.205"
+    contact_recovery: "6330/16400"
+  room_not_ready:
+    label: Room not ready at check-in
+    cases: 7600
+    dropoff_cases: 2280
+    contacts_per_case: 1
+    booking_recovery: "0.12"
+    contact_recovery: "2280/7600"
+  folio_dispute:
+    label: Folio dispute after checkout
+    cases: 6900
+    dropoff_cases: 3105
+    contacts_per_case: 2
+    booking_recovery: "0.02"
+    contact_recovery: "3036/13800"
+  modification_loop:
+    label: Modification loop
+    cases: 6400
+    dropoff_cases: 2240
+    contacts_per_case: 1
+    booking_recovery: "0.14"
+    contact_recovery: "1024/6400"
+  duplicate_charge:
+    label: Duplicate room charge
+    cases: 5800
+    dropoff_cases: 1450
+    contacts_per_case: 1
+    booking_recovery: "0.02"
+    contact_recovery: "696/5800"
+  refund_stall:
+    label: Refund left open
+    cases: 5100
+    dropoff_cases: 2550
+    contacts_per_case: 2
+    booking_recovery: "0.03"
+    contact_recovery: "2550/10200"
+  hold_expired:
+    label: Hold expired before confirm
+    cases: 4700
+    dropoff_cases: 3384
+    contacts_per_case: 1
+    booking_recovery: "0.25"
+    contact_recovery: "470/4700"
+  rate_reprice:
+    label: Rate changed after confirm
+    cases: 4200
+    dropoff_cases: 1428
+    contacts_per_case: 1
+    booking_recovery: "0.10"
+    contact_recovery: "630/4200"
+  tender_mismatch:
+    label: Second tender failed
+    cases: 3600
+    dropoff_cases: 2088
+    contacts_per_case: 2
+    booking_recovery: "0.16"
+    contact_recovery: "1296/7200"
+  late_checkout:
+    label: Late checkout
+    cases: 2200
+    dropoff_cases: 80
+  early_checkout:
+    label: Early checkout
+    cases: 1200
+    dropoff_cases: 60
+  key_reissue:
+    label: Key reissue
+    cases: 700
+    dropoff_cases: 40
+  amenity_contact:
+    label: Amenity complaint
+    cases: 900
+    dropoff_cases: 50
+    contacts_per_case: 1
+  rate_absorbed:
+    label: Rate change absorbed
+    cases: 1800
+    dropoff_cases: 30

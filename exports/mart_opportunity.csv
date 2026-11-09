@@ -1,0 +1,109 @@
+property,market,variant,label,cases,dropoff_cases,contacts,modeled_revenue,modeled_margin,modeled_support_cost,modeled_total,observed_loss
+Harbor House,Urban,duplicate_charge,Duplicate room charge,682,156,682,6200.13,1364.05,2091.00,3455.05,21113.40
+King Street,Urban,duplicate_charge,Duplicate room charge,496,142,496,7141.02,1571.04,1520.75,3091.79,22493.60
+Linden Court,Urban,duplicate_charge,Duplicate room charge,525,148,525,6482.40,1426.14,1609.65,3035.79,20889.90
+Pier Terminal,Airport,duplicate_charge,Duplicate room charge,797,218,797,2917.57,641.87,2443.59,3085.46,12934.50
+Field Station,Airport,duplicate_charge,Duplicate room charge,543,109,543,1317.33,289.81,1664.85,1954.66,6993.92
+North Runway,Airport,duplicate_charge,Duplicate room charge,424,107,424,3280.62,721.73,1299.97,2021.70,11569.32
+Dune House,Resort,duplicate_charge,Duplicate room charge,351,66,351,6745.20,1483.93,1076.18,2560.11,20506.50
+Palm Court,Resort,duplicate_charge,Duplicate room charge,221,56,221,9266.13,2038.57,677.60,2716.17,26525.10
+Cedar Ridge,Resort,duplicate_charge,Duplicate room charge,301,80,301,3568.89,785.16,922.88,1708.04,11576.30
+Mill Road,Suburban,duplicate_charge,Duplicate room charge,650,162,650,3731.76,821.01,1992.90,2813.91,14216.76
+Brook Lane,Suburban,duplicate_charge,Duplicate room charge,470,114,470,1183.57,260.37,1441.02,1701.39,6171.24
+West Orchard,Suburban,duplicate_charge,Duplicate room charge,340,92,340,3581.87,787.99,1042.44,1830.43,11857.20
+Harbor House,Urban,folio_dispute,Folio dispute after checkout,875,412,1750,16374.71,3602.43,9836.75,13439.18,55438.60
+King Street,Urban,folio_dispute,Folio dispute after checkout,550,253,1100,12723.09,2799.06,6183.10,8982.16,41439.20
+Linden Court,Urban,folio_dispute,Folio dispute after checkout,642,277,1284,12132.60,2669.16,7217.35,9886.51,40996.80
+Pier Terminal,Airport,folio_dispute,Folio dispute after checkout,961,425,1922,5687.92,1251.34,10803.55,12054.89,27536.10
+Field Station,Airport,folio_dispute,Folio dispute after checkout,675,290,1350,3504.81,771.04,7588.35,8359.39,18011.20
+North Runway,Airport,folio_dispute,Folio dispute after checkout,438,196,876,6009.36,1322.07,4924.01,6246.08,21818.16
+Dune House,Resort,folio_dispute,Folio dispute after checkout,387,169,774,17271.80,3799.81,4350.64,8150.45,51723.00
+Palm Court,Resort,folio_dispute,Folio dispute after checkout,278,131,556,21676.13,4768.77,3125.29,7894.06,62295.60
+Cedar Ridge,Resort,folio_dispute,Folio dispute after checkout,343,157,686,7003.94,1540.87,3856.02,5396.89,23318.80
+Mill Road,Suburban,folio_dispute,Folio dispute after checkout,739,324,1478,7463.52,1641.97,8307.85,9949.82,29554.92
+Brook Lane,Suburban,folio_dispute,Folio dispute after checkout,555,267,1110,2772.05,609.83,6239.31,6849.14,14511.72
+West Orchard,Suburban,folio_dispute,Folio dispute after checkout,457,204,914,7942.40,1747.34,5137.58,6884.92,27300.60
+Harbor House,Urban,hold_expired,Hold expired before confirm,564,404,564,200709.44,44156.08,1441.02,45597.10,47104.40
+King Street,Urban,hold_expired,Hold expired before confirm,375,268,375,168467.78,37062.91,958.13,38021.04,38917.70
+Linden Court,Urban,hold_expired,Hold expired before confirm,415,299,415,163702.50,36014.55,1060.33,37074.88,38135.70
+Pier Terminal,Airport,hold_expired,Hold expired before confirm,634,452,634,75615.83,16635.48,1619.87,18255.35,20401.80
+Field Station,Airport,hold_expired,Hold expired before confirm,490,352,490,53176.44,11698.82,1251.95,12950.77,14625.56
+North Runway,Airport,hold_expired,Hold expired before confirm,331,239,331,91596.75,20151.29,845.71,20997.00,21960.54
+Dune House,Resort,hold_expired,Hold expired before confirm,270,207,270,264442.50,58177.35,689.85,58867.20,59081.40
+Palm Court,Resort,hold_expired,Hold expired before confirm,170,119,170,246131.67,54148.97,434.35,54583.32,54478.20
+Cedar Ridge,Resort,hold_expired,Hold expired before confirm,246,183,246,102047.92,22450.54,628.53,23079.07,23692.80
+Mill Road,Suburban,hold_expired,Hold expired before confirm,529,378,529,108843.00,23945.46,1351.60,25297.06,26950.14
+Brook Lane,Suburban,hold_expired,Hold expired before confirm,383,276,383,35818.67,7880.11,978.57,8858.68,10185.06
+West Orchard,Suburban,hold_expired,Hold expired before confirm,293,207,293,100740.00,22162.80,748.62,22911.42,23705.10
+Harbor House,Urban,modification_loop,Modification loop,782,257,782,71500.26,15730.04,3196.83,18926.87,32631.20
+King Street,Urban,modification_loop,Modification loop,514,176,514,61955.91,13630.32,2101.22,15731.54,27244.60
+Linden Court,Urban,modification_loop,Modification loop,606,208,606,63772.80,14030.03,2477.34,16507.37,28528.20
+Pier Terminal,Airport,modification_loop,Modification loop,874,293,874,27449.22,6038.84,3572.90,9611.74,16142.10
+Field Station,Airport,modification_loop,Modification loop,639,227,639,19203.95,4224.88,2612.22,6837.10,11466.76
+North Runway,Airport,modification_loop,Modification loop,487,184,487,39490.08,8687.81,1990.87,10678.68,18369.54
+Dune House,Resort,modification_loop,Modification loop,403,142,403,101586.80,22349.11,1647.45,23996.56,41901.30
+Palm Court,Resort,modification_loop,Modification loop,273,111,273,128567.60,28284.86,1116.01,29400.87,51536.70
+Cedar Ridge,Resort,modification_loop,Modification loop,299,86,299,26855.89,5908.30,1222.30,7130.60,12289.70
+Mill Road,Suburban,modification_loop,Modification loop,681,254,681,40957.22,9010.59,2783.94,11794.53,20160.22
+Brook Lane,Suburban,modification_loop,Modification loop,497,169,497,12282.17,2702.10,2031.75,4733.85,7890.14
+West Orchard,Suburban,modification_loop,Modification loop,345,133,345,36246.93,7974.32,1410.36,9384.68,16218.30
+Harbor House,Urban,payment_retry,Payment retries that never clear,994,607,1988,247280.00,54401.59,19605.00,74006.59,77959.00
+King Street,Urban,payment_retry,Payment retries that never clear,660,415,1320,213916.36,47061.60,13017.40,60079.00,64922.00
+Linden Court,Urban,payment_retry,Payment retries that never clear,739,429,1478,192599.55,42371.92,14575.55,56947.47,60276.60
+Pier Terminal,Airport,payment_retry,Payment retries that never clear,1172,728,2344,99866.43,21970.61,23115.77,45086.38,41193.60
+Field Station,Airport,payment_retry,Payment retries that never clear,791,508,1582,62929.49,13844.49,15601.15,29445.64,26618.84
+North Runway,Airport,payment_retry,Payment retries that never clear,568,364,1136,114392.46,25166.34,11202.86,36369.20,37427.04
+Dune House,Resort,payment_retry,Payment retries that never clear,513,317,1026,332073.35,73056.13,10118.08,83174.21,94336.20
+Palm Court,Resort,payment_retry,Payment retries that never clear,337,204,674,345990.80,76117.99,6646.77,82764.76,95801.40
+Cedar Ridge,Resort,payment_retry,Payment retries that never clear,381,239,762,109286.07,24042.96,7514.58,31557.54,33719.60
+Mill Road,Suburban,payment_retry,Payment retries that never clear,903,559,1806,131987.97,29037.37,17810.18,46847.55,46304.12
+Brook Lane,Suburban,payment_retry,Payment retries that never clear,662,418,1324,44482.63,9786.18,13056.86,22843.04,20112.08
+West Orchard,Suburban,payment_retry,Payment retries that never clear,480,296,960,118123.73,25987.23,9467.21,35454.44,37305.60
+Harbor House,Urban,rate_reprice,Rate changed after confirm,496,176,496,34975.11,7694.52,1900.92,9595.44,22097.60
+King Street,Urban,rate_reprice,Rate changed after confirm,337,105,337,26401.67,5808.37,1291.57,7099.94,16445.10
+Linden Court,Urban,rate_reprice,Rate changed after confirm,362,104,362,22776.00,5010.72,1387.37,6398.09,14635.80
+Pier Terminal,Airport,rate_reprice,Rate changed after confirm,562,219,562,14654.75,3224.05,2153.87,5377.92,11490.30
+Field Station,Airport,rate_reprice,Rate changed after confirm,443,149,443,9003.74,1980.81,1697.82,3678.63,7675.12
+North Runway,Airport,rate_reprice,Rate changed after confirm,285,88,285,13490.40,2967.90,1092.28,4060.18,9113.58
+Dune House,Resort,rate_reprice,Rate changed after confirm,253,91,253,46501.00,10230.22,969.64,11199.86,26819.10
+Palm Court,Resort,rate_reprice,Rate changed after confirm,201,71,201,58740.67,12922.95,770.35,13693.30,33131.10
+Cedar Ridge,Resort,rate_reprice,Rate changed after confirm,202,59,202,13160.28,2895.26,774.17,3669.43,8411.60
+Mill Road,Suburban,rate_reprice,Rate changed after confirm,493,177,493,20386.47,4485.04,1889.44,6374.48,14164.86
+Brook Lane,Suburban,rate_reprice,Rate changed after confirm,324,112,324,5814.04,1279.08,1241.73,2520.81,5195.12
+West Orchard,Suburban,rate_reprice,Rate changed after confirm,242,77,242,14989.33,3297.65,927.47,4225.12,9655.80
+Harbor House,Urban,refund_stall,Refund left open,581,292,1162,17408.07,3829.78,7422.28,11252.06,38798.20
+King Street,Urban,refund_stall,Refund left open,419,209,838,15765.57,3468.43,5352.73,8821.16,33787.00
+Linden Court,Urban,refund_stall,Refund left open,488,253,976,16622.10,3656.85,6234.20,9891.05,36205.20
+Pier Terminal,Airport,refund_stall,Refund left open,741,367,1482,7367.53,1620.84,9466.28,11087.12,22658.70
+Field Station,Airport,refund_stall,Refund left open,518,267,1036,4840.27,1064.87,6617.45,7682.32,15279.06
+North Runway,Airport,refund_stall,Refund left open,350,170,700,7818.30,1720.04,4471.25,6191.29,18547.20
+Dune House,Resort,refund_stall,Refund left open,320,157,640,24068.10,5294.97,4088.00,9382.97,47552.40
+Palm Court,Resort,refund_stall,Refund left open,213,107,426,26557.40,5842.64,2721.08,8563.72,50705.40
+Cedar Ridge,Resort,refund_stall,Refund left open,244,124,488,8297.67,1825.49,3117.10,4942.59,18078.40
+Mill Road,Suburban,refund_stall,Refund left open,527,264,1054,9122.08,2006.85,6732.43,8739.28,23134.92
+Brook Lane,Suburban,refund_stall,Refund left open,402,202,804,3145.81,692.08,5135.55,5827.63,10753.52
+West Orchard,Suburban,refund_stall,Refund left open,297,138,594,8059.20,1773.01,3794.18,5567.19,18315.00
+Harbor House,Urban,room_not_ready,Room not ready at check-in,839,234,839,55801.20,12276.25,6430.94,18707.19,30510.90
+King Street,Urban,room_not_ready,Room not ready at check-in,629,179,629,54010.27,11882.25,4821.29,16703.54,28378.30
+Linden Court,Urban,room_not_ready,Room not ready at check-in,668,212,668,55713.60,12256.98,5120.22,17377.20,29394.00
+Pier Terminal,Airport,room_not_ready,Room not ready at check-in,1135,363,1135,29148.90,6412.77,8699.78,15112.55,20327.40
+Field Station,Airport,room_not_ready,Room not ready at check-in,731,208,731,15082.77,3318.22,5603.12,8921.34,11423.54
+North Runway,Airport,room_not_ready,Room not ready at check-in,552,175,552,32193.00,7082.46,4231.08,11313.54,18030.60
+Dune House,Resort,room_not_ready,Room not ready at check-in,446,133,446,81555.60,17942.22,3418.59,21360.81,39677.40
+Palm Court,Resort,room_not_ready,Room not ready at check-in,316,96,316,95308.80,20967.95,2422.14,23390.09,45075.60
+Cedar Ridge,Resort,room_not_ready,Room not ready at check-in,383,127,383,33993.67,7478.61,2935.70,10414.31,17779.90
+Mill Road,Suburban,room_not_ready,Room not ready at check-in,842,250,842,34553.33,7601.73,6453.93,14055.66,20924.60
+Brook Lane,Suburban,room_not_ready,Room not ready at check-in,602,170,602,10589.87,2329.75,4614.33,6944.08,8579.80
+West Orchard,Suburban,room_not_ready,Room not ready at check-in,457,133,457,31068.80,6835.15,3502.91,10338.06,16923.90
+Harbor House,Urban,tender_mismatch,Second tender failed,423,261,846,82986.40,18257.02,3890.74,22147.76,33465.60
+King Street,Urban,tender_mismatch,Second tender failed,304,177,608,71209.07,15666.00,2796.18,18462.18,27973.20
+Linden Court,Urban,tender_mismatch,Second tender failed,341,181,682,63422.40,13952.94,3136.53,17089.47,25799.40
+Pier Terminal,Airport,tender_mismatch,Second tender failed,491,284,982,30406.93,6689.52,4516.23,11205.75,16495.80
+Field Station,Airport,tender_mismatch,Second tender failed,361,198,722,19143.52,4211.57,3320.49,7532.06,11039.04
+North Runway,Airport,tender_mismatch,Second tender failed,242,141,484,34584.48,7608.59,2225.93,9834.52,14774.76
+Dune House,Resort,tender_mismatch,Second tender failed,210,132,420,107923.20,23743.09,1931.58,25674.67,39236.40
+Palm Court,Resort,tender_mismatch,Second tender failed,134,82,268,108546.13,23880.17,1232.52,25112.69,38490.00
+Cedar Ridge,Resort,tender_mismatch,Second tender failed,161,103,322,36759.56,8087.10,1480.89,9567.99,14491.60
+Mill Road,Suburban,tender_mismatch,Second tender failed,403,227,806,41832.57,9203.15,3706.78,12909.93,19260.76
+Brook Lane,Suburban,tender_mismatch,Second tender failed,315,170,630,14119.82,3106.35,2897.37,6003.72,8756.20
+West Orchard,Suburban,tender_mismatch,Second tender failed,215,132,430,41113.60,9044.98,1977.57,11022.55,16648.20
