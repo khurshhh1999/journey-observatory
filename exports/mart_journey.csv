@@ -1,0 +1,85 @@
+property,market,outcome,cases
+Brook Lane,Suburban,Censored,617
+Brook Lane,Suburban,Completed,64624
+Brook Lane,Suburban,Friction,4210
+Brook Lane,Suburban,Other break,534
+Brook Lane,Suburban,Policy block,1211
+Brook Lane,Suburban,Telemetry gap,1714
+Brook Lane,Suburban,Voluntary exit,7090
+Cedar Ridge,Resort,Censored,409
+Cedar Ridge,Resort,Completed,40509
+Cedar Ridge,Resort,Friction,2560
+Cedar Ridge,Resort,Other break,306
+Cedar Ridge,Resort,Policy block,751
+Cedar Ridge,Resort,Telemetry gap,1101
+Cedar Ridge,Resort,Voluntary exit,4364
+Dune House,Resort,Censored,494
+Dune House,Resort,Completed,48383
+Dune House,Resort,Friction,3153
+Dune House,Resort,Other break,426
+Dune House,Resort,Policy block,896
+Dune House,Resort,Telemetry gap,1369
+Dune House,Resort,Voluntary exit,5279
+Field Station,Airport,Censored,842
+Field Station,Airport,Completed,80754
+Field Station,Airport,Friction,5191
+Field Station,Airport,Other break,658
+Field Station,Airport,Policy block,1538
+Field Station,Airport,Telemetry gap,2110
+Field Station,Airport,Voluntary exit,8907
+Harbor House,Urban,Censored,994
+Harbor House,Urban,Completed,97008
+Harbor House,Urban,Friction,6236
+Harbor House,Urban,Other break,816
+Harbor House,Urban,Policy block,1781
+Harbor House,Urban,Telemetry gap,2677
+Harbor House,Urban,Voluntary exit,10488
+King Street,Urban,Censored,626
+King Street,Urban,Completed,64465
+King Street,Urban,Friction,4284
+King Street,Urban,Other break,580
+King Street,Urban,Policy block,1198
+King Street,Urban,Telemetry gap,1710
+King Street,Urban,Voluntary exit,7137
+Linden Court,Urban,Censored,735
+Linden Court,Urban,Completed,72597
+Linden Court,Urban,Friction,4786
+Linden Court,Urban,Other break,636
+Linden Court,Urban,Policy block,1296
+Linden Court,Urban,Telemetry gap,1998
+Linden Court,Urban,Voluntary exit,7952
+Mill Road,Suburban,Censored,864
+Mill Road,Suburban,Completed,88870
+Mill Road,Suburban,Friction,5767
+Mill Road,Suburban,Other break,724
+Mill Road,Suburban,Policy block,1681
+Mill Road,Suburban,Telemetry gap,2464
+Mill Road,Suburban,Voluntary exit,9630
+North Runway,Airport,Censored,556
+North Runway,Airport,Completed,56501
+North Runway,Airport,Friction,3677
+North Runway,Airport,Other break,456
+North Runway,Airport,Policy block,1051
+North Runway,Airport,Telemetry gap,1568
+North Runway,Airport,Voluntary exit,6191
+Palm Court,Resort,Censored,299
+Palm Court,Resort,Completed,32411
+Palm Court,Resort,Friction,2143
+Palm Court,Resort,Other break,224
+Palm Court,Resort,Policy block,556
+Palm Court,Resort,Telemetry gap,903
+Palm Court,Resort,Voluntary exit,3464
+Pier Terminal,Airport,Censored,1108
+Pier Terminal,Airport,Completed,113070
+Pier Terminal,Airport,Friction,7367
+Pier Terminal,Airport,Other break,1027
+Pier Terminal,Airport,Policy block,2091
+Pier Terminal,Airport,Telemetry gap,3034
+Pier Terminal,Airport,Voluntary exit,12303
+West Orchard,Suburban,Censored,456
+West Orchard,Suburban,Completed,48508
+West Orchard,Suburban,Friction,3126
+West Orchard,Suburban,Other break,413
+West Orchard,Suburban,Policy block,950
+West Orchard,Suburban,Telemetry gap,1352
+West Orchard,Suburban,Voluntary exit,5195

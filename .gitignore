@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+data/warehouse/
+airflow/logs/
+airflow/alerts/*.json
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+web/tsconfig.tsbuildinfo
+
+# Agent instructions and the working plan stay on this machine.
+plan.md
+AGENTS.md
+**/AGENTS.md
+.cursor/
+**/.cursor/
