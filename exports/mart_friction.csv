@@ -1,0 +1,15 @@
+variant,label,cases,dropoff_cases,dropoff_rate,score,contacts,high_friction,rank
+payment_retry,Payment retries that never clear,8200,5084,0.620000,5084,16400,1,1
+hold_expired,Hold expired before confirm,4700,3384,0.720000,3384,4700,1,2
+folio_dispute,Folio dispute after checkout,6900,3105,0.450000,3105,13800,1,3
+refund_stall,Refund left open,5100,2550,0.500000,2550,10200,1,4
+room_not_ready,Room not ready at check-in,7600,2280,0.300000,2280,7600,1,5
+modification_loop,Modification loop,6400,2240,0.350000,2240,6400,1,6
+tender_mismatch,Second tender failed,3600,2088,0.580000,2088,7200,1,7
+duplicate_charge,Duplicate room charge,5800,1450,0.250000,1450,5800,1,8
+rate_reprice,Rate changed after confirm,4200,1428,0.340000,1428,4200,1,9
+late_checkout,Late checkout,2200,80,0.036364,80,0,0,10
+early_checkout,Early checkout,1200,60,0.050000,60,0,0,11
+amenity_contact,Amenity complaint,900,50,0.055556,50,900,0,12
+key_reissue,Key reissue,700,40,0.057143,40,0,0,13
+rate_absorbed,Rate change absorbed,1800,30,0.016667,30,0,0,14

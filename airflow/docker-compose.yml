@@ -1,0 +1,18 @@
+services:
+  airflow:
+    build:
+      context: ..
+      dockerfile: airflow/Dockerfile
+    command: standalone
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      OBSERVATORY_ROOT: /opt/observatory
+      OBSERVATORY_ALERT_DIR: /opt/airflow/alerts
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./alerts:/opt/airflow/alerts
+      - ..:/opt/observatory
